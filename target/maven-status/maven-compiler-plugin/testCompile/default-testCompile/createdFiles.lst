@@ -1,0 +1,5 @@
+com\product\test\steps\CartSteps.class
+com\product\test\steps\ProductSteps.class
+com\product\test\steps\WishListSteps.class
+TestRunner.class
+com\product\test\steps\hooks\Hooks.class

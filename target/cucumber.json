@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-30T20:36:01.826Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10330000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.product.test.steps.hooks.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the product added to wishlist and cart",
+        "description": "",
+        "id": "products-wishlist;validate-the-product-added-to-wishlist-and-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 4806000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.product.test.steps.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6227000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add four different products to my wish list",
+            "match": {
+              "location": "com.product.test.steps.ProductSteps.productSelect()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 720000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I view my wishlist table",
+            "match": {
+              "location": "com.product.test.steps.WishListSteps.iViewMyWishlistTable()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I find total 4 selected items in my Wishlist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 13
+                }
+              ],
+              "location": "com.product.test.steps.WishListSteps.iFindTotalFourSelectedItemsInMyWishlist(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 605000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for lowest price product",
+            "match": {
+              "location": "com.product.test.steps.CartSteps.iSearchForLowestPriceProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to add the lowest price item to my cart",
+            "match": {
+              "location": "com.product.test.steps.CartSteps.iAmAbleToAddTheLowestPriceItemToMyCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2126000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am able to verify the item in my cart",
+            "match": {
+              "location": "com.product.test.steps.CartSteps.iAmAbleToVerifyTheItemInMyCart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Products"
+          }
+        ]
+      }
+    ],
+    "name": "Products Wishlist",
+    "description": "",
+    "id": "products-wishlist",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/add_products.feature",
+    "tags": [
+      {
+        "name": "@Products",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
