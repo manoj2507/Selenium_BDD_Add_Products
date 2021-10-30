@@ -1,9 +1,5 @@
 # Selenium_BDD_Add_Products
 
-##SONAR CLOUD REPORT
-
-
-
 ### Running Test from Intellij
 
 Create a Run configuration by selecting Edit Configuration, then a new maven config, Enter the following values:
